@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import os
 import time
 
-from forestmistbot.forestmistbot.forestmistbot.db import get_voice_minutes, add_voice_minutes
+from db import get_voice_minutes, add_voice_minutes
 
 load_dotenv()
 TOKEN = os.getenv("TOKEN")
