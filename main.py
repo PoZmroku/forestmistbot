@@ -1,4 +1,4 @@
-from keep_alive import keep_alive
+#from keep_alive import keep_alive
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
@@ -17,7 +17,7 @@ bot = commands.Bot(command_prefix="/", intents=intents)
 voice_sessions = {}
 DATA_FILE = "voice_data.json"
 
-keep_alive()
+#keep_alive()
 
 def load_data():
     if os.path.exists(DATA_FILE):
